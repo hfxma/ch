@@ -1,0 +1,69 @@
+:root {
+  font-size: 2vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0073ff;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
+body {
+  padding: 1rem;
+}
+body > div {
+  display: none;
+}
+
+button {
+  font-size: 2vw;
+  border: 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #0073ff;
+  color: white;
+}
+
+nav > button {
+  background-color: #aaaaaa;
+  color: black;
+}
+
+#ik button {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 70%;
+}
+#ik div {
+  grid-row: 1;
+}
+#ik div:first-of-type p {
+  font-weight: bold;
+}
+
+#it div {
+  grid-row: 1;
+}
+#it div p {
+  max-width: 66vw;
+}
+#it div:first-of-type p {
+  font-weight: bold;
+  max-width: 29vw;
+}
+#it button {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 70%;
+  grid-column: 1/2;
+}/*# sourceMappingURL=style.css.map */
