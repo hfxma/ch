@@ -23,11 +23,14 @@ body {
 }
 body > div {
   display: none;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 
 button {
-  font-size: 2vw;
+  font-size: 1rem;
   border: 0;
+  margin: 0.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 0.5rem;
   background-color: #0073ff;
@@ -66,4 +69,10 @@ nav > button {
   width: fit-content;
   font-size: 70%;
   grid-column: 1/2;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=style.css.map */
